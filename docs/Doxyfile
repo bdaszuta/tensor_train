@@ -1,0 +1,48 @@
+# Doxyfile for mva::tensor_train
+# XML-only output consumed by Breathe/Sphinx.
+
+PROJECT_NAME           = "tensor_train"
+PROJECT_BRIEF          = "Header-only C++20 tensor-train numerical library"
+OUTPUT_DIRECTORY       = docs/_doxygen
+INPUT                  = include
+RECURSIVE              = YES
+FILE_PATTERNS          = *.hpp
+EXCLUDE                = build tests
+EXCLUDE_PATTERNS       =
+
+GENERATE_HTML          = NO
+GENERATE_LATEX         = NO
+GENERATE_XML           = YES
+GENERATE_MAN           = NO
+GENERATE_RTF           = NO
+GENERATE_DOCBOOK       = NO
+GENERATE_AUTOGEN_DEF   = NO
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = YES
+EXTRACT_LOCAL_CLASSES  = NO
+HIDE_UNDOC_MEMBERS     = NO
+HIDE_UNDOC_CLASSES     = NO
+HIDE_FRIEND_COMPOUNDS  = YES
+HIDE_IN_BODY_DOCS      = NO
+INTERNAL_DOCS          = YES
+
+SOURCE_BROWSER         = NO
+INLINE_SOURCES         = NO
+STRIP_CODE_COMMENTS    = YES
+REFERENCED_BY_RELATION = NO
+REFERENCES_RELATION    = NO
+
+ENABLE_PREPROCESSING   = YES
+MACRO_EXPANSION        = NO
+EXPAND_ONLY_PREDEF     = NO
+
+ALIASES                = "SPDX=\remark SPDX"
+ALIASES               += "function=\remark"
+
+QUIET                  = YES
+WARNINGS               = YES
+WARN_IF_UNDOCUMENTED   = NO
+WARN_IF_DOC_ERROR      = YES
+WARN_NO_PARAMDOC       = NO

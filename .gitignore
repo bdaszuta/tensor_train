@@ -1,0 +1,17 @@
+# specify directly dotfiles
+.*
+!.gitignore
+*.d
+*.gch
+*.bak
+# *.md
+!README.md
+__pycache__
+
+bk
+libs/
+build/
+ref_prototype/
+github/
+docs/_build/
+docs/_doxygen/
